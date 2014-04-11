@@ -10,7 +10,7 @@
 
 - name: configure and deploy the webservers and application code
   hosts: node4
-  user: yes
+  sudo: yes
 
   roles:
     - web
