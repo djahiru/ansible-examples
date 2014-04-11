@@ -3,4 +3,4 @@
 # See http://ansible.cc/docs/playbooks.html for more information about handlers.
 
 - name: stop iptables
-  service: name=iptables state=stopeed
+  service: name=iptables state=stopped
