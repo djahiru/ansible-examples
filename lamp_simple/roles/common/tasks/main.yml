@@ -14,9 +14,8 @@
   service: name=ntpd state=started enabled=true
   tags: ntp
 
- - name: install python-selinux
-      yum: pkg=libselinux-python state=latest
+- name: install python-selinux
+  yum: pkg=libselinux-python state=latest
 
 - name: disable selinux
-      selinux: state=disabled
-
+  selinux: state=disabled
