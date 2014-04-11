@@ -9,14 +9,14 @@
     - common
 
 - name: configure and deploy the webservers and application code
-  hosts: webservers
+  hosts: node4
   sudo: yes
 
   roles:
     - web
 
 - name: deploy MySQL and configure the databases
-  hosts: dbservers
+  hosts: node4
   sudo: yes
 
   roles:
