@@ -19,3 +19,6 @@
 
 - name: disable selinux
   selinux: state=disabled
+  
+- name: disable iptables
+  action: service name=iptables state=stopped enabled=false
