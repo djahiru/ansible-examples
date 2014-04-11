@@ -1,7 +1,6 @@
 [webservers]
-localhost.localdomain
+192.168.12.186
 
 [dbservers]
-localhost.localdomain
-
+192.168.12.186
 
